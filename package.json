@@ -1,0 +1,17 @@
+{
+  "name": "elysia-cloudflare-worker",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "wrangler": "^4.34.0"
+  },
+  "module": "src/index.js"
+}

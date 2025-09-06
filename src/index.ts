@@ -4,7 +4,7 @@ const app = new Elysia({ aot: false })
   .get("/", () => "Hello Elysia")
 
 console.log(
-  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+  `🦊 Elysia is running`
 );
 
 export default {
